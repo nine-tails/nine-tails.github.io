@@ -1,24 +1,22 @@
-let cookies = 0;
-let grannies = 0;
-let bakers = 0;
-let n = 0;
-let m = 0;
-let f = 0;
-let staff = 0;
-let factory = 0;
-let total = cookies + grannies +
-    bakers + staff + factory;
+let cookies = 0
+let grannies = 0
+let bakers = 0
+let n = 0
+let m = 0
+let f = 0
+let staff = 0
+let factory = 0
 
 
 function cookieSec(number) {
-    (cookies < 100) ? cookies = +(cookies + number/10).toFixed(1) : cookies = Math.floor(cookies + number/10);
+    cookies += number
     document.getElementById("cookies")
-        .innerHTML = cookies;
+        .innerHTML = cookies.toFixed();
     document.getElementById(
         "cookiesper").innerHTML =
         grannies + bakers + staff +
         factory;
-    document.title = cookies +
+    document.title = cookies.toFixed() +
         " Cookies";
 };
 
@@ -140,9 +138,9 @@ function load() {
 }
 
 
-window.setInterval(function () {
-    cookieSec(grannies);
-    cookieSec(bakers);
-    cookieSec(staff);
-    cookieSec(factory);
+setInterval(function () {
+    cookieSec(+(grannies/10).toFixed(1));
+    cookieSec(bakers/10);
+    cookieSec(staff/10);
+    cookieSec(factory/10);
 }, 100,);
