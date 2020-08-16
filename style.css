@@ -1,3 +1,14 @@
-body {
-    text-align: center;
+a{
+  color: rgb(100,100,100);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(100,100,100,0.7);
+}
+
+
+.portfolio{
+  width: 90vw;
+  margin: 0 auto;
 }
