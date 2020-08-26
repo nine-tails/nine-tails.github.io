@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choco Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img button onClick="chocoSec(1)" src="img/1.png"></button>
+    <p style="font-size: 75px">🍫<span class="chocop">0</span></p>
+
+    <p class="p-edit">Шоколад/с: <span id="chocoper">0</span></p> <br>
+
+    <button class="upgrade-btn" onClick="buy(roboCount, roboX); roboCount++">
+        <strong>Робот-кондитер ⚙👽⚙</strong>
+    </button>
+    <br>
+    <p class="chocop">👽 <span id="count1">0</span> Стоимость: <span id="cost1"><em>10</em></span></p>
+
+    <button class="upgrade-btn" onClick="buy(cooksCount, cookX); cooksCount++">
+        <strong>Человек-кондитер 👨‍🍳</strong>
+    </button>
+    <br>
+    <p class="chocop">👨 <span id="count10">0</span> Стоимость: <span id="cost10"><em>100</em></span></p>
+
+    <button class="upgrade-btn" onClick="buy(confCount,confX); confCount++">
+        <strong>Кондитерская 🍩🍪☕</strong>
+    </button>
+    <br>
+    <p class="chocop">
+        ☕
+        <span id="count100">0</span>
+        Стоимость:
+        <span id="cost100">
+            <em>1000</em>
+        </span>
+    </p>
+
+    <button class="upgrade-btn" onClick="buy(factoryCount, factoryX); factoryCount++">
+        <strong>Шоколадная фабрика 🏭</strong>
+    </button>
+    <br>
+    <p class="chocop">🏭 <span id="count1000">0</span>
+        Стоимость: <span id="cost1000">10000</span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
