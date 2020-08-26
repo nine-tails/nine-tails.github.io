@@ -12,9 +12,9 @@ const factoryX = 1000
 function chocoSec(number) {
     chocolats += number
     document.querySelector ('span:nth-of-type(1)')
-        .innerHTML = chocolats.toFixed();
-    document.querySelector('#chocoper').innerHTML = chocoper;
-    document.title = chocolats.toFixed() + ' Шоколадок';
+        .innerHTML = chocolats.toFixed()
+    document.querySelector('#chocoper').innerHTML = chocoper
+    document.title = chocolats.toFixed() + ' Шоколадок'
 }
 
 function buy(count, x) {
@@ -25,6 +25,16 @@ function buy(count, x) {
         ++count
         chocolats -= cost
         document.querySelector(`#count${x}`).innerHTML = count;
+        switch (x) {
+            case 1 : roboCount++
+                break
+            case 10 : cooksCount++
+                break
+            case 100 : confCount++
+                break
+            case 1000 : factoryCount++
+                break
+        }
     }
     let nextCost = Math.floor(x * 10 * Math.pow(1.1, count));
     document.querySelector(`#cost${x}`).innerHTML = nextCost;
