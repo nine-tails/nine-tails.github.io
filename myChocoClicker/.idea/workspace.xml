@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17e43b4e-1cda-49a7-8d6c-c38b9037f223" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../myCookieClicker/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCookieClicker/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myCookieClicker/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <workItem from="1597651701357" duration="303000" />
       <workItem from="1598427847441" duration="10285000" />
       <workItem from="1598451717350" duration="95000" />
-      <workItem from="1598452114172" duration="6451000" />
+      <workItem from="1598452114172" duration="7546000" />
     </task>
     <servers />
   </component>
