@@ -1,14 +1,19 @@
 a{
-  color: rgb(100,100,100);
+  color: rgb(71, 27, 255);
   text-decoration: none;
 }
 
 a:hover{
-  color: rgba(100,100,100,0.7);
+  color: rgba(188, 80, 80, 0.7);
 }
 
-
 .portfolio{
-  width: 90vw;
+  max-width: 1200px;
   margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.block{
+  margin: 2rem;
+  font-size: 1.2rem;
 }
